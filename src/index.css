@@ -1,0 +1,86 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;600;700;900&family=Rubik:wght@400;600;800&display=swap');
+
+*{
+  font-family: 'Poppins', sans-serif;
+}
+
+.body_box{
+  max-width: 700px;
+  margin: auto;
+}
+
+nav{
+  display: flex;
+  align-items: center;
+  margin-left: auto;
+}
+
+.brand{
+  color: #8338ec;
+}
+
+.mainmenu ul{
+  display: flex;
+  list-style: none;
+}
+
+.mainmenu ul li a{
+  text-decoration: none;
+  margin: 0px 10px;
+}
+
+.mainmenu ul li a:hover{
+    color: #8338ec;
+}
+
+.main_header{
+  display: flex;
+  align-items: center;
+  border-bottom: 1px solid #8338ec;
+  
+}
+
+.counter_box{
+  border: 1px solid #8338ec;
+ padding: 15px; 
+ background: #8338ec;
+ display: flex;
+ flex-direction: column;
+ justify-content: center;
+ align-items: center;
+  margin-top: 30px;
+  border-radius: 8px;
+  box-shadow: 0 0 43px #ccc;
+}
+
+.count_action{
+  margin-top: 15px;
+}
+
+.count{
+  color: #fff;
+  font-size: 76px;
+  font-weight: 600;
+}
+
+.btn-large{
+  background: #fff;
+  border: navajowhite;
+  padding: 5px 30px;
+  border-radius: 50px;
+  margin: 0px 20px;
+  color: #8338ec;
+  font-size: 16px;
+  font-weight: 600;
+  transition: all 0.2s;
+  border: 2px solid #fff;
+}
+
+.btn-large:hover{
+  background-color: #8338ec;
+  color: #fff;
+  border: 2px solid #fff;
+  transition: all 0.2s;
+  transform: scale(1.02);
+  cursor: pointer;
+}
